@@ -144,7 +144,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8" id="about">
         <div className="mx-auto max-w-4xl">
           <div className="flex items-center space-x-2 mb-8">
             <User className="h-6 w-6" />
@@ -214,7 +214,7 @@ export default function Portfolio() {
       </section>
 
       {/* Experience Section */}
-      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8" id="experience">
         <div className="mx-auto max-w-4xl">
           <div className="flex items-center space-x-2 mb-8">
             <Briefcase className="h-6 w-6" />
@@ -271,7 +271,7 @@ export default function Portfolio() {
       </section>
 
       {/* Projects Section */}
-      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-muted/50">
+      <section className="container py-12 md:py-16 px-4 sm:px-6 lg:px-8 bg-muted/50" id="projects">
         <div className="mx-auto max-w-4xl">
           <div className="flex items-center space-x-2 mb-8">
             <FolderOpen className="h-6 w-6" />
